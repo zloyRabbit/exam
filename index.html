@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Путешествуй просто</title>
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+
+    <body>
+        <div class="wrapper f">
+            <header class="header f">
+                <div class="content f">
+                    <div class="head f">
+                        <div class="f logo">
+                            <img src="/resources/images/logo.png" alt="">
+                            <h2>Путешествуй просто</h2>
+                        </div>
+                        <div class="f mt menu">
+                            <p>8-823-122-45-23</p>
+                            <button class="mt">Заказать звонок</button>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <main class="main f">
+                <div class="f upper content unp block">
+                    <div class="f filts">
+                        <div>
+                            <p>Откуда:</p>
+                            <input type="text">
+                        </div>
+                        <div>
+                            <p>Куда:</p>
+                            <input type="text">
+                        </div>
+                        <div>
+                            <p>На сколько:</p>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <button class="mt">Подобрать тур</button>
+                </div>
+                <div class="f slog content unp block">
+                    <img src="/resources/images/111-1-1.jpg" alt="">
+                    <div class="f">
+                        <p>Сегодня тут - а завтра там.</p>
+                        <button>Подобрать горящий тур</button>
+                    </div>
+                </div>
+                <div class="f prem content block">
+                    <div class="f premcard">
+                        <p>֍</p>
+                        <p>Огромный выбор туров</p>
+                    </div>
+                    <div class="f premcard">
+                        <p>֍</p>
+                        <p>Лучший онлайн поиск туров с вылетом из Томска</p>
+                    </div>
+                    <div class="f premcard">
+                        <p>֍</p>
+                        <p>Максимальные скидки по всем операторам</p>
+                    </div>
+                    <div class="f premcard">
+                        <p>֍</p>
+                        <p>Покупка авиабилетов в любую точку мира</p>
+                    </div>
+                    <div class="f premcard">
+                        <p>֍</p>
+                        <p>Надёжность, гарантированная честным договором с
+                            туристами!</p>
+                    </div>
+                    <div class="f premcard">
+                        <p>֍</p>
+                        <p>Вся информация о клиенте конфиденциальна.</p>
+                    </div>
+                </div>
+
+                <p class="mt textup content"> Особенности горящих туров:</p>
+                <div class="f osob content block">
+                    <p class="gr">♦ Низкая цена</p>
+                    <p>Не все туристы имеют возможность заранее спланировать поездку. Иногда решение об отпуске принимается спонтанно, и времени на подготовку путешествия попросту не остается. К тому же, в последний момент практически невозможно подыскать авиабилеты в нужном направлении по скидке и выгодные условия проживания в отелях. В этом случае единственным разумным вариантом остается горящий тур, который позволяет не просто отдохнуть по адекватной цене, но и сэкономить до половины от первоначальной стоимости путевки.</p>
+                    <br>
+                    <p class="gr">♦ Возможность отправиться в поездку немедленно</p>
+                    <p>Между покупкой турпакета и непосредственным путешествием проходит совсем мало времени. Таким образом, туристу не приходится томиться в ожидании поездки, а можно наслаждаться отдыхом и новыми впечатлениями практически сразу.</p>
+                </div>
+
+                <div class="f content filter block">
+                    <input type="radio" onclick="filt('ALL');" id="0" checked
+                        name="rb1">
+                    <label for="0">Все</label>
+                    <input type="radio" onclick="filt('По России');" id="1"
+                        name="rb1">
+                    <label for="1">По России</label>
+                    <input type="radio" onclick="filt('Вьетнам');" id="2"
+                        name="rb1">
+                    <label for="2">Вьетнам</label>
+                    <input type="radio" onclick="filt('Индонезия');" id="3"
+                        name="rb1">
+                    <label for="3">Индонезия</label>
+                    <input type="radio" onclick="filt('Китай');" id="4"
+                        name="rb1">
+                    <label for="4">Китай</label>
+                </div>
+
+                <div class="f content tour" id="tour">
+                    <div class="block tourblock f">
+                        <img src="/resources/images/Туры/Вьетнам/Нянчанг.jpg"
+                            alt="">
+                        <p class="gr">Нянчанг</p>
+                        <p>32 600 руб.</p>
+                        <p>Вьетнам</p>
+                    </div>
+                    <div class="block tourblock f">
+                        <img src="/resources/images/Туры/Вьетнам/Нянчанг2.jpg"
+                            alt="">
+                        <p class="gr">Нянчанг 2</p>
+                        <p>34 666 руб.</p>
+                        <p>Вьетнам</p>
+                    </div>
+                    <div class="block tourblock f">
+                        <img src="/resources/images/Туры/Вьетнам/Нянчанг3.jpg"
+                            alt="">
+                        <p class="gr">Нянчанг 3</p>
+                        <p>34 100 руб.</p>
+                        <p>Вьетнам</p>
+                    </div>
+
+                    <div class="block tourblock f">
+                        <img src="/resources/images/Туры/Индонезия/Бали.jpg"
+                            alt="">
+                        <p class="gr">Бали</p>
+                        <p>88 600 руб.</p>
+                        <p>Индонезия</p>
+                    </div>
+                    <div class="block tourblock f">
+                        <img src="/resources/images/Туры//Индонезия/Кута.jpg"
+                            alt="">
+                        <p class="gr">Кута</p>
+                        <p>81 666 руб.</p>
+                        <p>Индонезия</p>
+                    </div>
+                    <div class="block tourblock f">
+                        <img src="/resources/images/Туры/Индонезия/Кута2.jpg"
+                            alt="">
+                        <p class="gr">Кута 2</p>
+                        <p>82 100 руб.</p>
+                        <p>Индонезия</p>
+                    </div>
+
+                    <div class="block tourblock f">
+                        <img src="/resources/images/Туры/Китай/о.Хайнань.jpg"
+                            alt="">
+                        <p class="gr">о.Хайнань</p>
+                        <p>48 750 руб.</p>
+                        <p>Китай</p>
+                    </div>
+                    <div class="block tourblock f">
+                        <img src="/resources/images/Туры/Китай/о.Хайнань2.jpg"
+                            alt="">
+                        <p class="gr">о.Хайнань2</p>
+                        <p>56 400 руб.</p>
+                        <p>Китай</p>
+                    </div>
+                    <div class="block tourblock f">
+                        <img src="/resources/images/Туры/Китай/Санья.jpg"
+                            alt="">
+                        <p class="gr">Санья</p>
+                        <p>38 600 руб.</p>
+                        <p>Китай</p>
+                    </div>
+
+                    <div class="block tourblock f">
+                        <img src="/resources/images/Туры/По России/Адлер.jpg"
+                            alt="">
+                        <p class="gr">Адлер</p>
+                        <p>28 600 руб.</p>
+                        <p>По России</p>
+                    </div>
+                    <div class="block tourblock f">
+                        <img src="/resources/images/Туры/По России/Белокуриха.jpg" alt="">
+                        <p class="gr">Белокуриха</p>
+                        <p>58 750 руб.</p>
+                        <p>По России</p>
+                    </div>
+                    <div class="block tourblock f">
+                        <img src="/resources/images/Туры/По России/Домбай.jpg"
+                            alt="">
+                        <p class="gr">Домбай</p>
+                        <p>36 400 руб.</p>
+                        <p>По России</p>
+                    </div>
+                </div>
+
+                <p class="mt textup content"> Наши консультанты:</p>
+                <div class="f cons content">
+                    <div class="block unp consone f">
+                        <img src="/resources/images/Консультанты/Галина.jpg"
+                            alt="">
+                        <div>
+                            <p>Галина Петрова</p>
+                            <p>менеджер по туризму</p>
+                        </div>
+                    </div>
+                    <div class="block unp consone f">
+                        <img src="/resources/images/Консультанты/Иван.jpg"
+                            alt="">
+                        <div>
+                            <p class="mt">Иван Алексеев</p>
+                            <p>менеджер по туризму</p>
+                        </div>
+                    </div>
+                    <div class="block unp consone f">
+                        <img src="/resources/images/Консультанты/Светлана.jpg"
+                            alt="">
+                        <div>
+                            <p>Светлана Астахова </p>
+                            <p>менеджер по туризму</p>
+                        </div>
+                    </div>
+                </div>
+                <p class="mt textup content"> Отзывы о нас:</p>
+                <div class="f review content block">
+                    <div class="f revcon">
+                        <p class="mt">Надежда</p>
+                        <p>Отдыхали в Тайланде с 15.10.19г.от данной турфирмы .
+                            Отдых получился отличный, с погодой угадали, без
+                            дождей. Хочется от души поблагодарить менеджера
+                            Бельскую Ольгу Сергеевну за подбор тура, выбранного
+                            отеля Амбасадор Океан Винг, за приятное общение. Дай
+                            вам Бог здоровья, класных клиентов , счастья и
+                            любви. Будем вас рекомендовать друзьям ,родным и
+                            знакомым. СПАСИБО!!!!</p>
+                        <p class="mt">11.11.2019</p>
+                    </div>
+                    <div class="f revcon">
+                        <p class="mt">Галина</p>
+                        <p>Благодарны очень за организацию тура в Таиланд
+                            менеджеру Наталье Миндюк. Информацию предоставила в
+                            полном объеме, доброжелательная, активная,
+                            оперативно были выполнены все наши пожелания,
+                            никаких неприятных сюрпризов не произошло. Спасибо,
+                            Наталья!</p>
+                        <p class="mt">09.11.2019</p>
+                    </div>
+                    <div class="f revcon">
+                        <p class="mt">Екатерина</p>
+                        <p>Добрый день)))Хочу выразить огромную благодарность
+                            Наталье Дмитриевой!!!Наташенька,спасибо огромное за
+                            наш прекрасный отпуск!!!Спасибо за выбор страны и
+                            отеля!!!Мы довольны)))</p>
+                        <p class="mt">04.11.2019</p>
+                    </div>
+                    <div class="f revcon">
+                        <p class="mt">Татьяна</p>
+                        <p>С 16 по 27 октября отдыхали в Таиланде, Паттайе,
+                            отеле "Амбассадор Сити". Выражаю огромную
+                            благодарность менеджеру Ольге Бельской за удачно
+                            подобранный тур: удобное время вылета, превосходный
+                            отель, чудесный пляж, прекрасные погодные условия -
+                            всё это способствовало отличному отдыху,
+                            замечательному настроению, незабываемым
+                            впечатлениям. Желаю успехов и процветания! От всей
+                            души БЛАГОДАРЮ!</p>
+                        <p class="mt">03.11.2019</p>
+                    </div>
+                    <div class="f navrev">
+                        <button onclick="rprev();">←</button>
+                        <button onclick="rnext();">→</button>
+                    </div>
+                </div>
+            </main>
+
+            <button class="topbtn" onclick="gotop();">↑</button>
+
+            <footer class="footer f">
+                <div class="content footerbl f">
+                    <div class="head f">
+                        <div class="f logo">
+                            <img src="/resources/images/logo.png" alt="">
+                            <h2>Путешествуй просто</h2>
+                        </div>
+                        <div class="f mt menu">
+                            <p>8-823-122-45-23</p>
+                            <button class="mt">Заказать звонок</button>
+                        </div>
+                    </div>
+                    <div class="sbfoot f">
+                        <div>
+                            <p>г. Томск ул. Фрунце 39</p>
+                            <p>тел.: 8-823-122-45-23</p>
+                            <p>email: tourTomsk@ya.ru </p>
+                        </div>
+                        <p>Наша компания создана для Вашего комфорта. Мы сделали выбор и покупку тура максимально удобным для Вас. В нашем поиске можно найти путешествия от 80-ти туроператоров. Оплата туров происходит через защищенные порталы Сбербанка. Если Вам понадобится помощь специалиста в подборе тура, наши менеджеры всегда, с радостью, подберут путешествие по Вашим запросам и будут с Вами на связи на протяжении всего отдыха. Покупая тур в нашей компании, Вы не платите никаких дополнительных комиссий и сборов, Вы бронируете тур по цене туроператора.</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>
+
+    <script src="/js/script.js"></script>
+</html>
